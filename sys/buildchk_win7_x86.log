@@ -1,0 +1,8 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\converage\sys directory for files to compile.
+oacr invalidate root:x86chk /autocleanqueue
+1>Compiling and Linking c:\converage\sys *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>c:\converage\sys: TARGETPATH is OBJ
+1> C:\WinDDK\7600.16385.1\Bin\x86\oacr\oacrcl @c:\converage\sys\objchk_win7_x86\i386\cl.rsp
+1> C:\WinDDK\7600.16385.1\Bin\x86\oacr\oacrlink /out:c:\converage\sys\objchk_win7_x86\i386\cvg.sys /machine:ix86 @c:\converage\sys\objchk_win7_x86\i386\lnk.rsp
